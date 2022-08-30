@@ -8,11 +8,11 @@ function parseToJSON(data) {
     // TODO: Add a try/catch block to
     // attempt to convert 'data' to JSON
     return JSON.parse(data);
-  } catch (error) {
+  } catch (err) {
     // TODO: if an exception is raised
     // print the error to the console
     // and return null
-    console.error(error);
+    console.error(err);
     return null;
   }
 }
